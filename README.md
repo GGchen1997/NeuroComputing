@@ -1,14 +1,14 @@
 # DHL
 We propose the **D**ual-space **H**ierarchical **L**earning (DHL) to leverage multi-level goal sequences and their hierarchical relationships for conversational recommendation.
 
-##Install
+## Install
 ```bash
 pip install jieba
 pip install higher
 pip install torch
 ```
 
-##Experiments
+## Experiments
 
 ```bash
 python -u DHL.py --mode mw-h-mlp --attention both
